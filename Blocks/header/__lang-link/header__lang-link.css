@@ -1,0 +1,11 @@
+.header__lang-link {
+  display: flex;
+  width: 77px;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.header__lang-link_en,
+.header__lang-link_ru {
+  padding-top: 18px;
+}

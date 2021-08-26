@@ -1,0 +1,9 @@
+.place__website {
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    align-self: end;
+    justify-self: stretch;
+  }
+  

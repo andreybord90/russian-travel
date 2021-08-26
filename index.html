@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link link rel="stylesheet" href="/style.css" />
+    <link link rel="stylesheet" href="/vendors/fonts/fonts.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Россия</title>
   </head>
   <body>
@@ -55,13 +57,12 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
-        <ul class="intro__list line">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
-        </ul>
+        <p class="intro__list line">Часовых поясов 11
+          Объектов природного наследия ЮНЕСКО 12
+          Объектов культурного наследия ЮНЕСКО 16
+          Природных заповедников 105
+          Аэропортов 241
+        </p>
       </div>
 
       <div class="photo line">
@@ -120,6 +121,7 @@
           src="images/photo/__item (10).png"
           alt="Фото"
         />
+
         <img
           class="photo__image line"
           src="images/photo/__item (11).png"
@@ -244,9 +246,13 @@
             src="./images/places/__kareliya.png"
             alt="Карелия"
           />
+
           <div class="place__website line">
             <p class="place__url line">URL</p>
-            <a class="place__link line">http://vodlozero.ru//a>
+
+            <a href="http://vodlozero.ru" class="place__link line"
+              >http://vodlozero.ru</a
+            >
           </div>
           <div class="place__text">
             <p class="place__paragraph line">
@@ -260,17 +266,20 @@
               редких тропинках деревья в паре метров от земли помечены
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
-          
           </div>
         </div>
       </section>
 
-      <section class="cover line">
-        
-        <h2 class="cover__title line">До Байкала <br /> «на собаках»</h2>
-        <h4 class="cover__subtitle line">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h4>
-
-
+      <section class="cover line" >
+        <a href='https://stampsy.com/na-elektrichkakh-do-baikala' class="cover__link">
+        <h2 class="cover__title line">
+          До Байкала <br />
+          «на собаках»
+        </h2>
+        <h4 class="cover__subtitle line">
+          По мотивам учебной темы о Транссибе — путешествие от столицы до
+          Байкала на электричках.
+        </h4></a>
       </section>
 
       <footer class="footer line">
@@ -279,17 +288,8 @@
         <a class="footer__link line">Расписание</a>
         <a class="footer__link line">Календарь</a>
         <a class="footer__link line">Путешествия</a>
-        <a class="footer__link line">2020. Андрей Бордуков</a>
-
+        <a class="footer__link line">2021. Андрей Бордуков</a>
       </footer>
-
-
-
-
-      
-
     </div>
-
-    
   </body>
 </html>
