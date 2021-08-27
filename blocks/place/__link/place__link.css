@@ -1,0 +1,14 @@
+.place__link {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .place__link {
+    margin-left: 16px;
+  }
+}

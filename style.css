@@ -14,11 +14,8 @@
 } */
 
 
+/* 
 
-@media (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  }
 
   .header {
     width: 928px;
@@ -31,13 +28,13 @@
 
   .lead__title {
     margin: 48px auto 0;
-  }
+  } */
 
   /* .lead__subtitle {
     margin: 0 auto;
   } */
 
-  .lead__image {
+  /* .lead__image {
     width: 928px;
     height: 580px;
     margin: 56px auto 0;
@@ -56,4 +53,4 @@
 
     color: #ffffff;
   }
-}
+} */
