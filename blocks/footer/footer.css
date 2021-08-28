@@ -23,6 +23,8 @@
     flex-direction: column;
     justify-content: start;
     max-width: 186px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    margin-left: 16px;
+    padding-bottom: 24px;
   }
 }
