@@ -6,26 +6,32 @@
   box-sizing: border-box;
   margin: 0 auto 92px;
   grid-gap: 16px;
-  max-width: 1344px;
-  padding:  0;
+  max-width: 1184px;
+  padding: 0;
 }
 
-@media screen and (max-width: 1279px){
-.photo {
+@media screen and (max-width: 1279px) {
+  .photo {
     grid-gap: 14px;
     padding: 48px;
-}
+    margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-.photo {
+  .photo {
     padding: 24px;
     grid-gap: 16px;
-}}
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
 
 @media screen and (max-width: 767px) {
-.photo {
+  .photo {
     grid-gap: 12px;
     padding: 16px;
     margin-bottom: 48px;
-}}
+    margin-top: 48px;
+  }
+}
